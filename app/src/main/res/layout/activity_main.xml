@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#F0F4C3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="My Nanodegree Apps!"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/abc_action_bar_content_inset_material" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spotifier Steamer"
+            android:id="@+id/appid1"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:onClick="sendMessage"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/myapp_button"
+            android:layout_marginBottom="@dimen/abc_action_bar_content_inset_material"
+            android:enabled="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:minWidth="450px" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scores App"
+            android:id="@+id/appid2"
+            android:onClick="sendMessage"
+            android:layout_below="@+id/appid1"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/myapp_button"
+            android:layout_marginBottom="@dimen/abc_action_bar_content_inset_material"
+            android:enabled="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:minWidth="450px" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Library App"
+            android:id="@+id/appid3"
+            android:onClick="sendMessage"
+            android:layout_below="@+id/appid2"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/myapp_button"
+            android:layout_marginBottom="@dimen/abc_action_bar_content_inset_material"
+            android:enabled="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:minWidth="450px" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Build It Bigger"
+            android:id="@+id/appid4"
+            android:onClick="sendMessage"
+            android:layout_below="@+id/appid3"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/myapp_button"
+            android:layout_marginBottom="@dimen/abc_action_bar_content_inset_material"
+            android:enabled="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:minWidth="450px" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XYZ Reader"
+            android:id="@+id/appid5"
+            android:onClick="sendMessage"
+            android:layout_below="@+id/appid4"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/myapp_button"
+            android:layout_marginBottom="@dimen/abc_action_bar_content_inset_material"
+            android:enabled="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:minWidth="450px" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capstone"
+            android:id="@+id/appid6"
+            android:onClick="sendMessage"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/myapp_button"
+            android:layout_below="@+id/appid5"
+            android:layout_alignLeft="@+id/appid5"
+            android:layout_alignStart="@+id/appid5"
+            android:layout_marginBottom="@dimen/abc_action_bar_content_inset_material"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:enabled="true"
+            android:minWidth="450px" /><![CDATA[
+
+        android:layout_marginTop="44dp" />
+    ]]>
+    </RelativeLayout>
+</RelativeLayout>
